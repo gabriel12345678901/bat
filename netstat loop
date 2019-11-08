@@ -1,6 +1,9 @@
 :loop
 
-netstat.exe 
+netstat.exe
+
+netstat.exe > "C:\Users\tr642633\Documents\desenvolvimento\teste.txt"
+Echo.
 
 
 goto loop
