@@ -1,0 +1,6 @@
+:loop
+
+netstat.exe 
+
+
+goto loop
