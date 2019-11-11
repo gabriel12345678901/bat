@@ -2,7 +2,7 @@
 
 netstat.exe
 
-netstat.exe > "C:\Users\tr642633\Documents\desenvolvimento\teste.txt"
+netstat.exe >> "C:\Users\tr642633\Documents\desenvolvimento\teste.txt"
 Echo.
 
 
