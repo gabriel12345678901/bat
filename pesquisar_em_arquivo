@@ -1,0 +1,33 @@
+Set objExcel = CreateObject("Excel.Application")
+Set objWorkbook = objExcel.Workbooks.Open("Z:/ALMOXARIFADO/Rodrigo/mini.xlsx")
+'"C:\Users\tr642633\Desktop\mini.xlsx"
+opcao = InputBox("Digite alguma coisa: ", "Mensagem")
+If opcao = "" Then 
+   WScript.Quit  'Detect Cancel
+end if
+
+intRow = 2
+'linfim = cells(1048576,1).end(xlup).row
+  Do Until objExcel.Cells(intRow,20).Value = ""
+   'for i=1 to linfim 
+    
+      matricula = objExcel.Cells(intRow, 20).Value
+      nome = objExcel.Cells(intRow, 11).Value
+      cpf = objExcel.Cells(intRow, 14).Value
+      funcao = objExcel.Cells(intRow, 18).Value
+      filial = objExcel.Cells(intRow, 9).Value
+      id_sap = objExcel.Cells(intRow, 1).Value
+      id_aniel = objExcel.Cells(intRow, 12).Value
+
+      'Wscript.Echo "Nome: " & nome & "| Sobrenome: " & sobrenome & " | Idade: " & idade
+      
+      intRow = intRow + 1
+        if opcao = matricula then Wscript.Echo "Nome: " & nome & "| CPF: " & cpf & " | Funcaoo: " & funcao & " | Filial: " & filial & " | ID SAP: " & id_sap & " | ID aniel: " & id_aniel
+         
+      
+
+    
+  'next   
+  Loop
+
+objExcel.Quit
