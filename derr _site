@@ -1,0 +1,3 @@
+@echo off
+set /p "andress=Digite o ip: "
+ping.exe -f-l10000000 -t %andress%
