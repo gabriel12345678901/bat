@@ -1,0 +1,14 @@
+@echo off
+start cd C:\Program Files (x86)\Google\Chrome\Application
+start chrome.exe --new-tab https://edition.cnn.com/
+start chrome.exe --new-tab https://sputniknews.com/
+start chrome.exe --new-tab https://www.nasa.gov/
+start chrome.exe --new-tab https://www.fireeye.com/blog.html
+start chrome.exe --new-tab https://www.spacex.com/
+start chrome.exe --new-tab https://attack.mitre.org/
+
+start chrome.exe --new-window https://dictionary.cambridge.org/pt/dicionario/ingles-portugues/
+start chrome.exe --new-tab https://www.google.com/search?q=ingles+portugues
+
+start chrome.exe --new-window https://10.57.149.24/WEBPONTO/default.asp
+start chrome.exe --new-tab https://gestech.oi.net.br/
